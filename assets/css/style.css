@@ -1,0 +1,214 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.centro{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*.centro{
+   display: block;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   font-size: 11px;
+   font-weight: bold;
+   color: #fff;
+
+   margin: 0 15px;
+   padding: 10px 35px;
+
+   border: 2px solid #5fe36a;
+
+
+   position: relative;
+
+   &:before{
+      content: '';
+      position: absolute;
+      top: 0%;
+      left: 0%;
+
+      width: 100%;
+      heigth: 100%;
+
+      background-color: #5fe36a;
+
+      z-index: -1;
+
+      transition: .7s ease;
+   }
+  
+}*/
+
+/* .jumbotron{
+    margin-bottom: 1rem !important;
+} */
+
+.centralizar{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: start !important;
+}
+
+.jumbotron-cor {
+    background-color: #ffffff;
+}
+
+.socials{
+    padding-right: 0px;
+    padding-left: 0px;
+    list-style: none;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin:0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: rgb(103, 199, 236);
+    
+
+}
+.image1{
+    position: relative;
+    width:auto;
+    height:auto;
+    padding: 0.25rem;
+    max-width: 100%;
+ 
+}
+span{
+    color:#f70071;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.img-box img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s;
+}
+.cor{
+   color: #faea07;
+}
+.tamanho{
+font-size: 2em;
+
+}
+
+.logo{
+    padding-left: 0%;
+    width: 130px;
+    height: 96px;
+}
+
+#bg{
+
+    background-color: #f70071;
+}
+#bg2{
+    background-color: #ff5aa4;
+    margin-bottom: 0%;
+}
+
+.baby{
+    color:#e44f9c ;
+}
+
+#bola{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #faea07;
+}
+
+.gif{
+transform: rotate(-90deg);
+}
+/*testando botão******************************************************************/
+.button {
+    background-color: #35b084;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @-webkit-keyframes glowing {
+    0% { background-color: #00fc3f; -webkit-box-shadow: 0 0 3px #00fc3f; }
+    50% { background-color: #8BC34A; -webkit-box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: #00fc3f; -webkit-box-shadow: 0 0 3px #00fc3f; }
+  }
+  
+  @-moz-keyframes glowing {
+    0% { background-color: #00fc3f; -moz-box-shadow: 0 0 3px #00fc3f; }
+    50% { background-color: #8BC34A; -moz-box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: #00fc3f; -moz-box-shadow: 0 0 3px #00fc3f; }
+  }
+  
+  @-o-keyframes glowing {
+    0% { background-color: #00fc3f; box-shadow: 0 0 3px #00fc3f; }
+    50% { background-color: #8BC34A; box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: #00fc3f; box-shadow: 0 0 3px #00fc3f; }
+  }
+  
+  @keyframes glowing {
+    0% { background-color: #00fc3f; box-shadow: 0 0 3px #00fc3f; }
+    50% { background-color: #8BC34A; box-shadow: 0 0 3px #8BC34A; }
+    100% { background-color: #00fc3f; box-shadow: 0 0 3px #00fc3f; }
+  }
+  
+  .button {
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+  }
+
+.row{
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
