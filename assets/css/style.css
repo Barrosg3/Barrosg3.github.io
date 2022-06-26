@@ -69,6 +69,11 @@
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
+
+.socialcolor{
+    color: #878f88;
+    text-align: right;
+}
 .socials li{
     margin:0 10px;
 }
@@ -150,6 +155,8 @@ font-size: 2em;
 transform: rotate(-90deg);
 }
 /*testando botão******************************************************************/
+
+
 .button {
     background-color: #35b084;
     -webkit-border-radius: 5px;
